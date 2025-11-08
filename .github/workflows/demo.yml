@@ -2,8 +2,8 @@ name: Manual Workflow
 
 on:
   workflow_dispatch
-    inuts:
-     name:
+    inputs:
+      name:
         description:'Name'
         type; string
         default: 'test'
