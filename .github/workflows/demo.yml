@@ -1,11 +1,10 @@
-name: Hello World
+name: Manual Workflow
 
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch
  
 jobs:
-  demo:
+  manual:
     runs-on: ubuntu-latest
     
     steps:
