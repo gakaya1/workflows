@@ -2,7 +2,12 @@ name: Manual Workflow
 
 on:
   workflow_dispatch
- 
+    inuts:
+     name:
+        description:'Name'
+        type; string
+        default: 'test'
+     
 jobs:
   manual:
     runs-on: ubuntu-latest
